@@ -103,7 +103,7 @@ function App() {
               </div>
               <div class="step-text">
                 <div class="step-content">We set up</div>
-                <div class="step-content-lower">5g antenna(s) on your roof, for free!</div>
+                <div class="step-content-lower">5g antenna(s) in your building or on your roof, for free!</div>
               </div>
             </div>
           </div>
