@@ -12,7 +12,7 @@ const data = {
     {
       title: "What exactly does the antenna do?",
       content: <p>The antenna and its associated hardware will broadcast your internet (through an ethernet cable from your router/modem) connection through a 5G wireless signal that phones can connect to.
-        It's essentially a wireless router, but with a 5G signal. Customers of <a rel="noopener noreferrer" href='https://www.pollenmobile.io/how-it-works'>Pollen Mobile</a> and <a rel="noopener noreferrer" href='https://hellohelium.com/'>Helium Mobile</a> will
+        It's essentially a wireless router, but with a 5G signal. Customers of <a rel="noopener noreferrer" href='https://hellohelium.com/'>Helium Mobile</a> will
         be able to connect to the internet through your setup.</p>,
     },
     {
@@ -30,7 +30,7 @@ const data = {
     },
     {
       title: "How much does it cost to install? Does it cost me anything to run or use?",
-      content: `Our service is free and will take care of installation and maintenance. Customers pay Pollen and Helium to use the internet, and you get paid for letting them use it! The only thing you provide is power and internet access.`
+      content: `Our service is free and will take care of installation and maintenance. Customers pay Helium Mobile to use the internet, and you get paid for letting them use it! The only thing you provide is power and internet access.`
     },
     {
       title: "How much money can I make?",
@@ -118,7 +118,7 @@ function App() {
               <div class="step-text">
                 <div class="step-content">Customers connect</div>
                 <div class="step-content-lower">to the internet through your antenna(s).
-                  They will pay Pollen and Helium for the service.</div>
+                  They will pay Helium Mobile for the service.</div>
               </div>
             </div>
           </div>
