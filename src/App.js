@@ -10,9 +10,9 @@ import downArrow from './images/down-arrow.png';
 const data = {
   rows: [
     {
-      title: "What exactly does the antenna do?",
-      content: <p>The antenna and its associated hardware will broadcast your internet (through an ethernet cable from your router/modem) connection through a 5G wireless signal that phones can connect to.
-        It's essentially a wireless router, but with a 5G signal. Customers of <a rel="noopener noreferrer" href='https://hellohelium.com/'>Helium Mobile</a> will
+      title: "What exactly do these devices do?",
+      content: <p>These devices broadcast a combination of WiFi and 5G internet.
+        Customers of <a rel="noopener noreferrer" href='https://hellohelium.com/'>Helium Mobile</a> will
         be able to connect to the internet through your setup.</p>,
     },
     {
