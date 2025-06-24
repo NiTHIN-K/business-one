@@ -244,14 +244,14 @@ a {
 
 .step-text {
     text-align: left; /* Ensures text is left-aligned */
-    margin-left: 20px; /* Adds spacing between the number and text */
+    margin-left: 0px; /* Adds spacing between the number and text */
 }
 
 @media only screen and (max-width: 600px) {
   .headline {
     margin-bottom: 0px;
     margin-top: 30px;
-    font-size: 25px !important;
+    font-size: 15px;
     max-width: 90%;
   }
 
@@ -274,8 +274,7 @@ a {
   }
 
   .step-number-big {
-    font-size: 40px !important; /* Further reduce font size */
-    margin: 5px auto; /* Minimize vertical margin */
+    display: none; /* Hide step numbers on mobile */
   }
 
   .step {
@@ -307,7 +306,7 @@ a {
 
   #step-one .step-image>* {
     max-width: 200px;
-    height: 20px;
+    height: 10px;
   }
 
   #step-one .step-image .step-bottom {
@@ -315,14 +314,10 @@ a {
     height: 25px;
   }
 
-  #step-two .step-image>* {
-    max-width: 200px;
-    height: 20px;
-  }
-
+  
   #step-three .step-image>* {
     max-width: 100px;
-    height: 20px;
+    height: 10px;
   }
 
   .step-number-big {
@@ -337,6 +332,22 @@ a {
   .step-text-parent {
     margin-top: 0px !important; /* Reduce top margin */
     margin-bottom: 0px !important; /* Reduce bottom margin */
+  }
+
+  .step-number {
+    margin-left: 20px; /* Add space to the left of the emojis */
+  }
+
+  .step-content-lower {
+    max-width: 90%; /* Ensure the content doesn't stretch too far */
+    margin: 0 auto; /* Center the content */
+    padding: 0 10px; /* Add padding to the left and right */
+    text-align: left; /* Ensure text is aligned properly */
+  }
+
+  .step-content,
+  .step-content-lower {
+    padding-left: 20px; /* Add consistent left padding */
   }
 }
 

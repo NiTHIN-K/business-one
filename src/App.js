@@ -86,7 +86,7 @@ function App() {
         <div className="App">
             <div className="section" id="section1">
                 <h1 className='headline'>
-                    <span className='main-headline'>Provide better cell coverage to your community?</span> <br /> And get a <span className='underline'>free internet line</span> for it? Yes please. <br /> Get started in 3 steps:
+                    <span className='main-headline'>Provide better cell coverage to your area?</span> <br /> And get a <span className='underline'>free internet line</span> for it? Yes please. <br /> Get started in 3 steps:
                 </h1>
                 <div className='step-list'>
                     <div className='step' id='step-one'>
@@ -99,7 +99,7 @@ function App() {
                             </div>
                             <div className="step-text">
                                 <div className="step-content">We set up</div>
-                                <div className="step-content-lower">a small WiFi hotspot in your building or on your roof, for free!</div>
+                                <div className="step-content-lower">small WiFi hotspots in your building or on your roof, for free!</div>
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@ function App() {
                                 📡
                             </div>
                             <div className="step-text">
-                                <div className="step-content">Carriers offload data</div>
-                                <div className="step-content-lower">to your hotspot, boosting their customers' data speeds.</div>
+                                <div className="step-content">Boost cell signal</div>
+                                <div className="step-content-lower">on major carriers like AT&T through our hotspots, increasing social media presence and customer satisfaction.</div>
                             </div>
                         </div>
                     </div>
