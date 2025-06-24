@@ -92,7 +92,7 @@ function App() {
         <div className="App">
             <div className="section" id="section1">
                 <h1 className='headline'>
-                    <span className='main-headline'>Provide better cell coverage to your area?</span> <br /> And get a <span className='underline'>free internet line</span> for it? Yes please. <br /> Here's how you benefit:
+                    <span className='main-headline'>Provide better cell coverage to your area?</span> <br /> And get a <span className='underline'>free internet line</span> for it!<br /> Here's how you benefit:
                 </h1>
                 <div className='step-list'>
                     <div className='step' id='step-one'>
