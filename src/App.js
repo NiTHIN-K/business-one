@@ -91,8 +91,7 @@ function App() {
                 <div className='step-list'>
                     <div className='step' id='step-one'>
                         <div className='step-image'>
-                            <div className='step-top-gradient'></div>
-                            <img src={stepOneBuildings} className='step-bottom' alt="Buildings illustration"></img>
+                            <div className='step-number-big'>1</div> {/* Big number for Step 1 */}
                         </div>
                         <div className="step-text-parent">
                             <div id="step-number-one" className='step-number'>
@@ -106,7 +105,7 @@ function App() {
                     </div>
                     <div className='step' id='step-two'>
                         <div className='step-image'>
-                            <img src={stepTwo} className='step-top' alt="Data transfer illustration"></img>
+                            <div className='step-number-big'>2</div> {/* Big number for Step 2 */}
                         </div>
                         <div className="step-text-parent">
                             <div id="step-number-two" className='step-number'>
@@ -120,7 +119,7 @@ function App() {
                     </div>
                     <div className='step' id='step-three'>
                         <div className='step-image'>
-                            <img src={stepThree} className='step-top' alt="Money illustration"></img>
+                            <div className='step-number-big'>3</div> {/* Big number for Step 3 */}
                         </div>
                         <div className="step-text-parent">
                             <div id="step-number-three" className='step-number'>

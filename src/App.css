@@ -168,8 +168,9 @@ body,
 }
 
 .step-content {
-  font-size: 26px;
+  font-size: 18px; /* Adjust font size for consistency */
   font-weight: bold;
+  color: #2c3e50; /* Changed for better readability on light background */
 }
 
 .examples {
@@ -196,7 +197,7 @@ body,
 }
 
 a {
-  color: #b8b8f3;
+  color: #0056b3; /* Changed for better readability on light background */
 }
 
 .faq {
@@ -216,10 +217,10 @@ a {
   justify-content: center;
 }
 
-#step-one .step-image>* {
+/* #step-one .step-image>* {
   height: 150px;
   max-width: 300px;
-}
+} */
 
 .step-text{
   display: flex;
@@ -239,6 +240,11 @@ a {
   height: 100px!important;
   margin-top: 20px!important;
   align-items: center!important;
+}
+
+.step-text {
+    text-align: left; /* Ensures text is left-aligned */
+    margin-left: 20px; /* Adds spacing between the number and text */
 }
 
 @media only screen and (max-width: 600px) {
@@ -365,4 +371,12 @@ form button {
   font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+
+.step-number-big {
+    font-size: 100px; /* Large font size */
+    font-weight: bold;
+    color: #489aff; /* Changed for better readability on light background */
+    text-align: center;
+    margin: 20px auto; /* Center the number */
 }
