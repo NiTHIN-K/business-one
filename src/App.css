@@ -249,9 +249,9 @@ a {
 
 @media only screen and (max-width: 600px) {
   .headline {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 30px;
-    font-size: 15px;
+    font-size: 25px !important;
     max-width: 90%;
   }
 
@@ -273,6 +273,33 @@ a {
     flex-direction: column;
   }
 
+  .step-number-big {
+    font-size: 40px !important; /* Further reduce font size */
+    margin: 5px auto; /* Minimize vertical margin */
+  }
+
+  .step {
+    margin-bottom: 10px; /* Slightly reduce space between steps */
+  }
+
+  .step-text-parent {
+    margin-top: 5px !important; /* Reduce top margin */
+    margin-bottom: 5px !important; /* Reduce bottom margin */
+  }
+
+  .step-list {
+    gap: 10px; /* Add consistent spacing between steps */
+  }
+
+  .step-image {
+    margin: 0; /* Remove any extra margin around the step image */
+    padding: 0; /* Remove padding */
+  }
+
+  .step-text {
+    margin-left: 10px; /* Reduce spacing between the number and text */
+  }
+
   .step-image img {
     max-width: 150px;
     height: 150px;
@@ -280,17 +307,36 @@ a {
 
   #step-one .step-image>* {
     max-width: 200px;
-    height: 100px;
+    height: 20px;
   }
 
   #step-one .step-image .step-bottom {
     max-width: 200px;
-    height: 75px;
+    height: 25px;
+  }
+
+  #step-two .step-image>* {
+    max-width: 200px;
+    height: 20px;
   }
 
   #step-three .step-image>* {
     max-width: 100px;
-    height: 100px;
+    height: 20px;
+  }
+
+  .step-number-big {
+    font-size: 50px !important; /* Reduce font size for smaller screens */
+    margin: 0px auto; /* Reduce vertical margin */
+  }
+
+  .step {
+    margin-bottom: 0px; /* Reduce space between steps */
+  }
+
+  .step-text-parent {
+    margin-top: 0px !important; /* Reduce top margin */
+    margin-bottom: 0px !important; /* Reduce bottom margin */
   }
 }
 
