@@ -47,14 +47,20 @@ const data = {
                 <form
                     action="https://formbold.com/s/3L5ko"
                     method="POST"
-                    target="dummy">
+                    target="dummy"
+                    onSubmit={(e) => {
+                        e.preventDefault(); // Prevent default form submission
+                        e.target.submit(); // Submit the form
+                        alert("Thank you! Your message has been sent."); // Show confirmation popup
+                    }}
+                >
                     <label>
                         Your email address:
-                        <input type="email" name="email" />
+                        <input type="email" name="email" required />
                     </label>
                     <label>
                         Describe your potential location, and ask any questions you need answered:
-                        <textarea name="message"></textarea>
+                        <textarea name="message" required></textarea>
                     </label>
                     <button type="submit">Send</button>
                 </form>
