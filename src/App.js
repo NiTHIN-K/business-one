@@ -97,10 +97,10 @@ function App() {
                 <div className='step-list'>
                     <div className='step' id='step-one'>
                         <div className='step-image'>
-                            <div className='step-number-big'>1</div> {/* Big number for Step 1 */}
+                            <img src={stepOne} alt="Step 1" className="step-image-icon" />
                         </div>
                         <div className="step-text-parent">
-                            <div id="step-number-one" className='step-number'>
+                            <div id="step-number-one" className='step-number step-emoji-mobile-hide'>
                                 🛠
                             </div>
                             <div className="step-text">
@@ -111,10 +111,10 @@ function App() {
                     </div>
                     <div className='step' id='step-two'>
                         <div className='step-image'>
-                            <div className='step-number-big'>2</div> {/* Big number for Step 2 */}
+                            <img src={stepTwo} alt="Step 2" className="step-image-icon" />
                         </div>
                         <div className="step-text-parent">
-                            <div id="step-number-two" className='step-number'>
+                            <div id="step-number-two" className='step-number step-emoji-mobile-hide'>
                                 📡
                             </div>
                             <div className="step-text">
@@ -125,10 +125,10 @@ function App() {
                     </div>
                     <div className='step' id='step-three'>
                         <div className='step-image'>
-                            <div className='step-number-big'>3</div> {/* Big number for Step 3 */}
+                            <img src={stepThree} alt="Step 3" className="step-image-icon" />
                         </div>
                         <div className="step-text-parent">
-                            <div id="step-number-three" className='step-number'>
+                            <div id="step-number-three" className='step-number step-emoji-mobile-hide'>
                                 📶
                             </div>
                             <div className="step-text">

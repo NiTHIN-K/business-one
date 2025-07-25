@@ -139,8 +139,8 @@ body,
 }
 
 .step-image img {
-  max-width: 300px;
-  height: 300px;
+  max-width: unset;
+  height: unset;
 }
 
 .step-content-lower {
@@ -218,10 +218,11 @@ a {
   justify-content: center;
 }
 
-/* #step-one .step-image>* {
-  height: 150px;
-  max-width: 300px;
-} */
+#step-one .step-image>*,
+#step-three .step-image>* {
+  max-width: unset !important;
+  height: unset !important;
+}
 
 .step-text{
   display: flex;
@@ -355,6 +356,33 @@ a {
   .step-content-lower {
     padding-left: 20px; /* Add consistent left padding */
   }
+
+  .step-image-icon {
+    width: 260px !important;
+    height: 260px !important;
+    max-width: 260px !important;
+    max-height: 260px !important;
+    object-fit: cover !important;
+    border-radius: 18px;
+    border: 3px solid #afece7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: white;
+    display: block;
+    margin: 0 0px 0px 0px;
+    padding: 0px 0px 0px 0px !important;
+  }
+}
+
+.step-image-icon {
+  width: 360px;
+  height: 360px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 3px solid #afece7;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: white;
+  display: block;
+  margin: 0 auto;
 }
 
 form {
@@ -442,4 +470,54 @@ form button {
     color: #489aff; /* Changed for better readability on light background */
     text-align: center;
     margin: 20px auto; /* Center the number */
+}
+
+.step-text-parent {
+  margin-top: 42px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .step-image-icon {
+    width: 200px !important;
+    height: 200px !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 18px;
+    border: 3px solid #afece7;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    background: white;
+    display: block;
+    margin: 0 0px 0px 0px;
+    padding: 0px 0px 0px 0px !important;
+  }
+  .main-headline {
+    margin-bottom: 0px;
+    font-size: 28px;
+  }
+  .step-text-parent {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .step-list {
+    margin-top: 12px;
+    gap: 10px; /* Add consistent spacing between steps */
+  }
+  .step-emoji-mobile-hide {
+    display: none !important;
+  }
+  .step {
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: flex-start;
+    gap: 6px;
+  }
+  .step-image {
+    margin-right: 0px;
+    padding-left: 12px;
+  }
+  .step-text {
+    margin-left: 0px;
+  }
 }
