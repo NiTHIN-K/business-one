@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import Faq from "react-faq-component";
 import stepOne from './images/stepone.png';
@@ -153,6 +154,7 @@ function App() {
                 <iframe name="dummy" style={{ display: 'none' }}>
                 </iframe>
             </div>
+            <Analytics />
         </div>
     );
 }
