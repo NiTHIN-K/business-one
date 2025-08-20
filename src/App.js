@@ -24,9 +24,9 @@ const data = {
                 <>
                     <p>The WiFi hotspot is a small device that can be placed indoors near a window, or outdoors in a weather-proof enclosure. We handle the entire installation process for free.</p>
                     <div className='examples'>
-                        <img className='example-image' src='https://cdn.discordapp.com/attachments/1212471286891020308/1213316429269438505/IMG_0788.jpg?ex=685b62fb&is=685a117b&hm=cd01822773e3ad1697cf7ef6a0954d8347fba66832b302f6fd7733b09656a6b7&' alt="Installation example 1"></img>
+                        <img className='example-image' src='https://store.rakwireless.com/cdn/shop/files/24.1021-MNTD_fi_Pro_Thumbnail_913x@2x.progressive.jpg?v=1731586769' alt="Installation example 1"></img>
                         <img className='example-image' src='https://framerusercontent.com/images/l2fnjOAqyikoHwl28RlexxVig.jpg' alt="Installation example 2"></img>
-                        <img className='example-image' src='https://media.discordapp.net/attachments/1212471286891020308/1213991113824669716/IMG_1614.jpg?ex=685b3454&is=6859e2d4&hm=a6163aa0c52d87dac71190ed3aa0dce6205391d89e4581632546934084af8c3c&=&format=webp&width=1346&height=1794' alt="Installation example 3"></img>
+                        <img className='example-image' src='https://assets.mobileworldlive.com/wp-content/uploads/2023/10/04104843/Nova-Labs_hotspot.png' alt="Installation example 3"></img>
                     </div>
                 </>
         },
