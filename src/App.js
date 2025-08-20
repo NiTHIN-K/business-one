@@ -11,6 +11,10 @@ import downArrow from './images/down-arrow.png';
 const data = {
     rows: [
         {
+            title: "We already offer free WiFi, how will this benefit us?",
+            content: `Perfect! Since you already have WiFi, this device works in the background without changing anything for your customers. The difference is it creates a new revenue stream — typically $200–$300 per month — at no cost to you.`,
+        },
+        {
             title: "How do I make money with this?",
             content: `You generate extra revenue just for having WiFi at your business! We partner with mobile carriers to offload their cellular traffic onto your WiFi. In return, you receive a share of the revenue generated from this service. The more people who connect, the more you can earn.`,
         },
