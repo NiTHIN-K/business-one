@@ -20,7 +20,7 @@ const data = {
         },
         {
             title: "What exactly do these devices do?",
-            content: <p>These devices are WiFi hotspots that boost cell carrier coverage. When a cell phone user from a partner carrier is nearby, their phone automatically connects to your hotspot. This offloads their data usage from the cellular network, giving them better speed and coverage. You earn revenue for every connection.</p>,
+            content: <p>These devices are cellular hotspots that boost cell carrier coverage. When a cell phone user from a partner carrier is nearby, their phone automatically connects to your hotspot. This offloads their data usage from the cellular network, giving them better speed and coverage. You earn revenue for every connection.</p>,
         },
         {
             title: "How is the hotspot installed?",
