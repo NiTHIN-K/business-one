@@ -11,6 +11,10 @@ import downArrow from './images/down-arrow.png';
 const data = {
     rows: [
         {
+            title: "Is this safe to plug this into our router?",
+            content: `Yes. These devices are designed to follow industry-standard best practices for networking equipment and will not interfere with your existing WiFi. We’re always available to provide support or answer any questions you may have.`,
+        },
+        {
             title: "We already offer free WiFi, how will this benefit us?",
             content: `Perfect! Since you already have WiFi, this device works in the background without changing anything for your customers. The difference is it creates a new revenue stream — typically $200–$300 per month — at no cost to you.`,
         },
@@ -26,7 +30,7 @@ const data = {
             title: "How is the hotspot installed?",
             content:
                 <>
-                    <p>The WiFi hotspot is a small device that can be placed indoors near a window, or outdoors in a weather-proof enclosure. We handle the entire installation process for free.</p>
+                    <p>The hotspot is a small device that can be placed indoors near a window, or outdoors in a weather-proof enclosure. We handle the entire installation process for free.</p>
                     <div className='examples'>
                         <img className='example-image' src='https://store.rakwireless.com/cdn/shop/files/24.1021-MNTD_fi_Pro_Thumbnail_913x@2x.progressive.jpg?v=1731586769' alt="Installation example 1"></img>
                         <img className='example-image' src='https://framerusercontent.com/images/l2fnjOAqyikoHwl28RlexxVig.jpg' alt="Installation example 2"></img>
@@ -40,7 +44,7 @@ const data = {
         },
         {
             title: "What do I get for hosting a device?",
-            content: `You generate extra revenue for your business just by having WiFi available. If you don't already have WiFi, we can provide a free WiFi line as a side offering to enable you to participate.`,
+            content: `You generate extra revenue for your business just by having WiFi available.`,
         },
         {
             title: "What if my business doesn't have WiFi?",
