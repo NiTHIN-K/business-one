@@ -110,7 +110,7 @@ function App() {
                             </div>
                             <div className="step-text">
                                 <div className="step-content">We set up</div>
-                                <div className="step-content-lower">small WiFi hotspots in your building or on your roof, for free!</div>
+                                <div className="step-content-lower">small hotspots in your building or on your roof, for free!</div>
                             </div>
                         </div>
                     </div>
