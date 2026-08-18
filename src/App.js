@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import { Analytics } from '@vercel/analytics/react';
 import './App.css';
 import Faq from "react-faq-component";
 import stepOne from './images/stepone.png';
-import stepOneBuildings from './images/stepone-buildings.png';
 import stepTwo from './images/steptwo.png';
 import stepThree from './images/stepthree.png';
 import downArrow from './images/down-arrow.png';
@@ -88,11 +86,6 @@ const config = {
 };
 
 function App() {
-    let [open, setOpen] = useState(false);
-    let customClass = "";
-    if (open) {
-        customClass = "open";
-    }
     return (
         <div className="App">
             <div className="section" id="section1">
@@ -155,7 +148,7 @@ function App() {
                     styles={styles}
                     config={config}
                 />
-                <iframe name="dummy" style={{ display: 'none' }}>
+                <iframe title="Interest form confirmation" name="dummy" style={{ display: 'none' }}>
                 </iframe>
             </div>
             <Analytics />
